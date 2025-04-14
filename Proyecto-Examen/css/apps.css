@@ -1,0 +1,29 @@
+    body {
+        overflow-x: hidden;
+    }
+        
+    #container_principal {
+        height: 100vh;    
+        /*width: 2000px;
+        height: 650px;*/
+    }
+   .cursor {
+        cursor: pointer;
+    }
+    
+    header {
+        padding: 30px;
+        width: 100%;
+    } 
+    footer {
+        padding: 30px;        
+    }
+        header h1 {
+        text-align: center;
+    }
+        footer h2 {
+        text-align: center;
+    }
+    .fondo {
+        background-color: #0010ea;
+    }

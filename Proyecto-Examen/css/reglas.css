@@ -1,0 +1,102 @@
+/* Extra Small devices (landscape phones, 576px and down)*/
+
+@media (max-width: 575px) {
+    #container_principal {
+        max-width: 100%;
+        /* Establece un ancho máximo para el contenedor */
+        /*height: auto;*/
+        /* Permite que la altura se ajuste automáticamente */
+        /*   overflow: hidden;*/
+        /* Evita que el contenido sobresalga del contenedor */
+        position: relative;
+        /* Ajusta la posición de los elementos internos */
+    }
+    iframe {
+        width: 100% !important;
+    }
+    footer {
+        position: relative;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    #container_principal {
+        max-width: 100%;
+        /* Establece un ancho máximo para el contenedor */
+        /*height: auto;*/
+        /* Permite que la altura se ajuste automáticamente */
+        /*overflow: hidden;*/
+        /* Evita que el contenido sobresalga del contenedor */
+        position: relative;
+        /* Ajusta la posición de los elementos internos */
+    }
+    iframe {
+        width: 100% !important;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    #container_principal {
+        max-width: 100%;
+        /* Establece un ancho máximo para el contenedor */
+        /*height: auto;*/
+        /* Permite que la altura se ajuste automáticamente */
+        /*overflow: hidden;*/
+        /* Evita que el contenido sobresalga del contenedor */
+        position: relative;
+        /* Ajusta la posición de los elementos internos */
+    }
+    iframe {
+        width: 100% !important;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    #container_principal {
+        max-width: 100%;
+        /* Establece un ancho máximo para el contenedor */
+        /* height: auto;*/
+        /* Permite que la altura se ajuste automáticamente */
+        overflow: hidden;
+        /* Evita que el contenido sobresalga del contenedor */
+        position: relative;
+        /* Ajusta la posición de los elementos internos */
+    }
+    iframe {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    #container_principal {
+        width: 2000px;
+        height: 700px;
+    }
+    header h1 {
+        display: flex;
+        justify-content: center;
+    }
+    footer h2 {
+        display: flex;
+        justify-content: center;
+    }
+    header {
+        width: 100% !important;
+    }
+    footer {
+        width: 100% !important;
+    }
+    iframe {
+        width: 640px !important;
+        height: 480px !important;
+    }
+}
